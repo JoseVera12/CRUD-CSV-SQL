@@ -1,0 +1,49 @@
+h1{
+    color: red;
+}
+body{
+    display: flex;
+    background-image: url("https://img.freepik.com/vector-premium/vector-fondo-curvo-abstracto-beige_53876-161811.jpg?w=2000");
+}
+
+table{
+    margin-left: 200px;
+    width: 50%;
+    background-color:rgb(247, 185, 164);
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+}
+th{
+    background-color: pink;
+    padding: 10px;
+   border: 1px solid black;
+}
+td{
+    text-align: center;
+    margin: 1px solid black;
+    border: 1px solid black; 
+}
+
+th:hover{
+    background-color: bisque;
+}
+
+td:hover{
+    background-color: blanchedalmond;
+}
+
+a {
+    color: #000; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado */
+    transition: color 0.3s; /* Transición de color al pasar el mouse */
+  }
+  
+  a:hover {
+    color: #f00; /* Color del texto al pasar el mouse */
+  }
+  
+  a:visited {
+    color: #800080; /* Color del texto visitado */
+  }
